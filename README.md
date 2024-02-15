@@ -1,2 +1,2 @@
 # CPsyCoun
-CPsyCoun: A Chinese Dataset for Reinventing Psychological Counseling in the GenAI Times
+CPsyCoun: A Report-based Multi-turn Dialogue Reconstruction and Evaluation Framework for Chinese Psychological Counseling
