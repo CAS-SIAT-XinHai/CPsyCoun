@@ -4,7 +4,7 @@
 
 ## Data analysis
 
-![Data analysis](Fig\Data_analysis.png)
+![Data analysis](../Fig/Data_analysis.png)
 
  ### Topic types
  * Self-growth

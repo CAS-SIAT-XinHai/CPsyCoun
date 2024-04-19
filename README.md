@@ -5,7 +5,7 @@ CPsyCoun: A Report-based Multi-turn Dialogue Reconstruction and Evaluation Frame
 
 The method **Memo2Demo** consists of two parts - **Memo Conversion** and **Demo Generation**, in order to generate high-quality psychological consultation dialogue from counseling reports.
 
-![Memo2Demo](Fig\Memo2Demo.png)
+![Memo2Demo](Fig/Memo2Demo.png)
 
 ### CPsyCounD
 
