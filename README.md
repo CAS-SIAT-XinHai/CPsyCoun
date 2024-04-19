@@ -35,7 +35,7 @@ The approach to effectively evaluate multi-turn consultation dialogues.
 Denote a $m$-turn dialogue as a set of paired elements $\{(q_i,r_i)|i=1, 2, ..., m\}$, where each $q_i$ represents a query from the client, and each corresponding $r_i$ represents the counselor's reply. We first split it into $m$ single-turn dialogue, then prompt the model with query together with its dialogue history in each single-turn dialogue, resulting in the corresponding single-turn response:
 
 $$
-\hat{r}_i=\begin{cases}\quad f_{LLM}(q_i),&i=1\\f_{LLM}(h_i,q_i),&1<i\leq m\end{cases}
+\hat{r}_i=\begin{cases}\quad f_{LLM}(q_i),&i=1\\f_{LLM}(h_i,q_i),&1<i\le m\end{cases}
 $$
 
 where $h_i=\{(q_j, r_j)|j=1, 2, ..., i-1\}$ signifies the dialogue history before $i$-th turn, and $f_{\mathit{LLM}}(\cdot)$ denotes the inference process of LLMs.
