@@ -2,7 +2,11 @@
 
  The high-quality multi-turn dialogue dataset, which has a total of **3,134 multi-turn consultation dialogues**. CPsyCounD covers **nine representative topics** and **seven classic schools** of psychological counseling.
 
- ## Topic types
+## Data analysis
+
+![Data analysis](Fig\Data_analysis.png)
+
+ ### Topic types
  * Self-growth
  * Emotion&Stress
  * Education
@@ -13,7 +17,7 @@
  * Career
  * Mental Disease
 
-## Consulting schools
+### Consulting schools
 * Psychoanalytic Therapy
 * Cognitive Behavioral Therapy
 * Humanistic Therapy
