@@ -2,6 +2,8 @@
 
 **CPsyCoun: A Report-based Multi-turn Dialogue Reconstruction and Evaluation Framework for Chinese Psychological Counseling**
 
+![Framework](Fig/Framework.png)
+
 ## Method
 
 The method **Memo2Demo** consists of two parts - **Memo Conversion** and **Demo Generation**, in order to generate high-quality psychological consultation dialogue from counseling reports.
@@ -48,3 +50,34 @@ Then, we employ LLM to assess these responses, utilizing the evaluation metrics.
 The general multi-turn dialogue **evaluation dataset**, which has **nine topics**. 
 * For more details, please refer to the [CPsyCounE](CPsyCounE/README.md).
 
+## Experiments
+
+### Intrinsic Evaluation
+
+#### Role-play VS Memo2Demo
+
+* Statistics of generated dialogues
+
+![Statistics](Fig/Experiment_1.png)
+
+* The results of intrinsic evaluation
+
+![Intrinsic evaluation](Fig/Experiment_2.png)
+
+
+### Extrinsic Evaluation
+
+#### CPsyCounX
+
+We further fine-tune **InternLM2-7B-Chat** on **CPsyCounD**. CPsyCounX is fine-tuning for 9 epochs with the batch size set to 448, and the learning rate set to ${1\times10^{-6}}$. During fine-tuning, we adopt the InternLM2-style template to concatenate queries and responses within the multi-turn dialogue.
+* For more details, please refer to the [Code](sft_CPsyCounX.sh).
+
+#### Results
+
+* The results of extrinsic evaluation
+
+![Extrinsic evaluation](Fig/Experiment_3.png)
+
+* Radar plot of detailed scores of CPsyCounX and other baselines
+
+![Radar plot](Fig/Experiment_4.png)
