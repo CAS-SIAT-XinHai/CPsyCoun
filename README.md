@@ -33,7 +33,7 @@ the counselor in the dialogues.
 
 ### Turn-Based Dialogue Evaluation
 
-The approach to effectively evaluate multi-turn consultation dialogues.
+**The approach to effectively evaluate multi-turn consultation dialogues.**
 
 Denote a $m$-turn dialogue as a set of paired elements $\{(q_i,r_i)|i=1, 2, ..., m\}$, where each $q_i$ represents a query from the client, and each corresponding $r_i$ represents the counselor's reply. We first split it into $m$ single-turn dialogue, then prompt the model with query together with its dialogue history in each single-turn dialogue, resulting in the corresponding single-turn response:
 
@@ -44,6 +44,8 @@ where $h_i=\{(q_j, r_j)|j=1, 2, ..., i-1\}$ signifies the dialogue history befor
 Then, we employ LLM to assess these responses, utilizing the evaluation metrics. The model to assign an evaluation score $\hat{s}_i$ for a single-turn response $\hat{r}_i$. Then we average them to yield the total evaluation score of the current $m$-turn dialogue:
 
 ![math_2](Fig/math_2.png)
+
+* For more details, please refer to the [Code](Code/Turn_Based_Dialogue_Evaluation.ipynb).
 
 ### CPsyCounE
 
@@ -70,7 +72,7 @@ The general multi-turn dialogue **evaluation dataset**, which has **nine topics*
 #### CPsyCounX
 
 We further fine-tune **InternLM2-7B-Chat** on **CPsyCounD**. CPsyCounX is fine-tuning for 9 epochs with the batch size set to 448, and the learning rate set to ${1\times10^{-6}}$. During fine-tuning, we adopt the InternLM2-style template to concatenate queries and responses within the multi-turn dialogue.
-* For more details, please refer to the [Code](sft_CPsyCounX.sh).
+* For more details, please refer to the [Code](Code/sft_CPsyCounX.sh).
 
 #### Results
 
