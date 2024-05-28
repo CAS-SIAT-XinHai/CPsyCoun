@@ -2,40 +2,47 @@
 
 **CPsyCoun: A Report-based Multi-turn Dialogue Reconstruction and Evaluation Framework for Chinese Psychological Counseling**
 
+## 🔥News
 
-## Framework
+* **[May. 2024]**: Our paper has released on [arXiv](https://arxiv.org/abs/2405.16433) , check it out!
+* **[May. 2024]**: **CPsyCoun** has been accepted to **2024 ACL** ***Findings***!
+* **[Apr. 2024]**: **CPsyCoun** has been used in [EmoLLM ![img](https://img.shields.io/github/stars/SmartFlowAI/EmoLLM?style=social)](https://github.com/SmartFlowAI/EmoLLM), welcome!
+
+## Method
+
+### Framework
 
 The **CPsyCoun** framework consists of two parts - **Data Generation** and **Automatic Evaluation**.
 
 ![Framework](Fig/Framework.png)
 
 
-## Dialogue Reconstruction
+### Dialogue Reconstruction
 
 The method **Memo2Demo** consists of two parts - **Memo Conversion** and **Demo Generation**, in order to generate high-quality psychological consultation dialogue from counseling reports.
 
 ![Memo2Demo](Fig/Memo2Demo.png)
 
-### Counseling Report
+#### Counseling Report
 
 Acoording to the China’s National Class
 II Psychological Counselor Examination and other
 psychological counseling literature, the counseling report is normalized into **six parts**: 
 *Title, Type, Method, Case Brief, Consultation Process and Experience Thoughts*.
 
-* An example of counseling report: 
+* An example of counseling report 
 
 ![Counseling_Report](Fig/Counseling_Report.png)
 
-### CPsyCounD
+#### CPsyCounD
 
 The high-quality multi-turn dialogue dataset, which has a total of **3,134 multi-turn consultation dialogues**. 
 * For more details, please refer to the [CPsyCounD](CPsyCounD/README.md).
 
 
-## Evaluation Framework
+### Evaluation Framework
 
-### Evaluation Metrics
+#### Evaluation Metrics
 
 * **Comprehensiveness**
   * The client’s situation and the degree to which
@@ -49,13 +56,13 @@ the counselor in the dialogues.
 * **Safety**
   * The degree of privacy protection of clients.
 
-### Score Criterion
+#### Score Criterion
 
 * The score criterion of each evaluation metric
 
 ![Score Criterion](Fig/Score_Criterion.png)
 
-### Turn-Based Dialogue Evaluation
+#### Turn-Based Dialogue Evaluation
 
 **The approach to effectively evaluate multi-turn consultation dialogues.**
 
@@ -71,17 +78,17 @@ Then, we employ LLM to assess these responses, utilizing the evaluation metrics.
 
 * For more details, please refer to the [Code](Code/Turn_Based_Dialogue_Evaluation.ipynb).
 
-### CPsyCounE
+#### CPsyCounE
 
 The general multi-turn dialogue **evaluation dataset**, which has **nine topics**. 
 * For more details, please refer to the [CPsyCounE](CPsyCounE/README.md).
 
 
-## Experiments
+### Experiments
 
-### Intrinsic Evaluation
+#### Intrinsic Evaluation
 
-#### Role-play VS Memo2Demo
+##### Role-play VS Memo2Demo
 
 * Statistics of generated dialogues
 
@@ -92,14 +99,14 @@ The general multi-turn dialogue **evaluation dataset**, which has **nine topics*
 ![Intrinsic evaluation](Fig/Experiment_2.png)
 
 
-### Extrinsic Evaluation
+#### Extrinsic Evaluation
 
-#### CPsyCounX
+##### CPsyCounX
 
 We further fine-tune **InternLM2-7B-Chat** on **CPsyCounD**. CPsyCounX is fine-tuning for 9 epochs with the batch size set to 448, and the learning rate set to ${1\times10^{-6}}$. During fine-tuning, we adopt the InternLM2-style template to concatenate queries and responses within the multi-turn dialogue.
 * For more details, please refer to the [Code](Code/sft_CPsyCounX.sh).
 
-#### Results
+##### Results
 
 * The average results of extrinsic evaluation
 
