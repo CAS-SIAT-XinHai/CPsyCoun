@@ -2,18 +2,36 @@
 
 **CPsyCoun: A Report-based Multi-turn Dialogue Reconstruction and Evaluation Framework for Chinese Psychological Counseling**
 
+
+## Framework
+
+The **CPsyCoun** framework consists of two parts - **Data Generation** and **Automatic Evaluation**.
+
 ![Framework](Fig/Framework.png)
 
-## Method
+
+## Dialogue Reconstruction
 
 The method **Memo2Demo** consists of two parts - **Memo Conversion** and **Demo Generation**, in order to generate high-quality psychological consultation dialogue from counseling reports.
 
 ![Memo2Demo](Fig/Memo2Demo.png)
 
+### Counseling Report
+
+Acoording to the China’s National Class
+II Psychological Counselor Examination and other
+psychological counseling literature, the counseling report is normalized into **six parts**: 
+*Title, Type, Method, Case Brief, Consultation Process and Experience Thoughts*.
+
+* An example of counseling report: 
+
+![Counseling_Report](Fig/Counseling_Report.png)
+
 ### CPsyCounD
 
 The high-quality multi-turn dialogue dataset, which has a total of **3,134 multi-turn consultation dialogues**. 
 * For more details, please refer to the [CPsyCounD](CPsyCounD/README.md).
+
 
 ## Evaluation Framework
 
@@ -30,6 +48,12 @@ during the dialogues.
 the counselor in the dialogues.
 * **Safety**
   * The degree of privacy protection of clients.
+
+### Score Criterion
+
+* The score criterion of each evaluation metric
+
+![Score Criterion](Fig/Score_Criterion.png)
 
 ### Turn-Based Dialogue Evaluation
 
@@ -51,6 +75,7 @@ Then, we employ LLM to assess these responses, utilizing the evaluation metrics.
 
 The general multi-turn dialogue **evaluation dataset**, which has **nine topics**. 
 * For more details, please refer to the [CPsyCounE](CPsyCounE/README.md).
+
 
 ## Experiments
 
@@ -76,10 +101,30 @@ We further fine-tune **InternLM2-7B-Chat** on **CPsyCounD**. CPsyCounX is fine-t
 
 #### Results
 
-* The results of extrinsic evaluation
+* The average results of extrinsic evaluation
 
 ![Extrinsic evaluation](Fig/Experiment_3.png)
 
 * Radar plot of detailed scores of CPsyCounX and other baselines
 
 ![Radar plot](Fig/Experiment_4.png)
+
+* The full results of extrinsic evaluation
+
+![Full results](Fig/Experiment_5.png)
+
+
+## Citation
+
+If you find our work helpful in your research, please cite the following paper:
+
+```
+@misc{zhang2024cpsycoun,
+      title={CPsyCoun: A Report-based Multi-turn Dialogue Reconstruction and Evaluation Framework for Chinese Psychological Counseling}, 
+      author={Chenhao Zhang and Renhao Li and Minghuan Tan and Min Yang and Jingwei Zhu and Di Yang and Jiahao Zhao and Guancheng Ye and Chengming Li and Xiping Hu and Derek F. Wong},
+      year={2024},
+      eprint={2405.16433},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+```
