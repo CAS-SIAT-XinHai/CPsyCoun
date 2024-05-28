@@ -1,6 +1,6 @@
 # CPsyCounD
 
- The high-quality multi-turn dialogue dataset, which has a total of **3,134 multi-turn consultation dialogues**. CPsyCounD covers **nine representative topics** and **seven classic schools** of psychological counseling.
+The high-quality multi-turn dialogue dataset, which has a total of **3,134 multi-turn consultation dialogues**. CPsyCounD covers **nine representative topics** and **seven classic schools** of psychological counseling.
 
 ## Data analysis
 
