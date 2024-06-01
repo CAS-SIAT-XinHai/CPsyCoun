@@ -10,7 +10,7 @@
 
 ## Method
 
-### Framework
+### CPsyCoun Framework
 
 The **CPsyCoun** framework consists of two parts - **Data Generation** and **Automatic Evaluation**.
 
