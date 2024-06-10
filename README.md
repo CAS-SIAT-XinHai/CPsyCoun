@@ -3,7 +3,7 @@
 **CPsyCoun: A Report-based Multi-turn Dialogue Reconstruction and Evaluation Framework for Chinese Psychological Counseling**
 
 <p align="center">
-<a href="https://huggingface.co/datasets/CAS-SIAT-XinHai/CPsyCounX"><img src="https://img.shields.io/badge/-HuggingFace-yellow" alt="HuggingFace"></a>
+<a href="https://huggingface.co/CAS-SIAT-XinHai/CPsyCounX"><img src="https://img.shields.io/badge/-HuggingFace-yellow" alt="HuggingFace"></a>
 <a href="https://github.com/CAS-SIAT-XinHai/CPsyCoun"><img src="https://img.shields.io/badge/GitHub-24292e" alt="github"></a>
 <a href="https://huggingface.co/datasets/CAS-SIAT-XinHai/CPsyCoun"><img src="https://img.shields.io/badge/-HuggingFace-yellow" alt="HuggingFace"></a>
 </p> 
@@ -44,7 +44,7 @@ psychological counseling literature, the counseling report is normalized into **
 
 The high-quality multi-turn dialogue dataset, which has a total of **3,134 multi-turn consultation dialogues**. 
 * For more details, please refer to the [CPsyCounD](CPsyCounD/README.md).
-* CPsyCounD in [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory) form is open-sourced at [HuggingFace](https://huggingface.co/CAS-SIAT-XinHai/CPsyCounD).
+* CPsyCounD in [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory) form is open-sourced at [HuggingFace](https://huggingface.co/datasets/CAS-SIAT-XinHai/CPsyCoun).
 
 
 ### Evaluation Framework
