@@ -2,6 +2,12 @@
 
 **CPsyCoun: A Report-based Multi-turn Dialogue Reconstruction and Evaluation Framework for Chinese Psychological Counseling**
 
+<p align="center">
+<a href="https://huggingface.co/datasets/CAS-SIAT-XinHai/CPsyCounX"><img src="https://img.shields.io/badge/-HuggingFace-yellow" alt="HuggingFace"></a>
+<a href="https://github.com/CAS-SIAT-XinHai/CPsyCoun"><img src="https://img.shields.io/badge/GitHub-24292e" alt="github"></a>
+<a href="https://huggingface.co/datasets/CAS-SIAT-XinHai/CPsyCoun"><img src="https://img.shields.io/badge/-HuggingFace-yellow" alt="HuggingFace"></a>
+</p> 
+
 ## 🔥News
 
 * **[May. 2024]**: Our paper has released on [arXiv](https://arxiv.org/abs/2405.16433) , check it out!
@@ -38,6 +44,7 @@ psychological counseling literature, the counseling report is normalized into **
 
 The high-quality multi-turn dialogue dataset, which has a total of **3,134 multi-turn consultation dialogues**. 
 * For more details, please refer to the [CPsyCounD](CPsyCounD/README.md).
+* CPsyCounD in [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory) form is open-sourced at [HuggingFace](https://huggingface.co/CAS-SIAT-XinHai/CPsyCounD).
 
 
 ### Evaluation Framework
@@ -105,6 +112,7 @@ The general multi-turn dialogue **evaluation dataset**, which has **nine topics*
 
 We further fine-tune **InternLM2-7B-Chat** on **CPsyCounD**. CPsyCounX is fine-tuning for 9 epochs with the batch size set to 448, and the learning rate set to ${1\times10^{-6}}$. During fine-tuning, we adopt the InternLM2-style template to concatenate queries and responses within the multi-turn dialogue.
 * For more details, please refer to the [Code](Code/sft_CPsyCounX.sh).
+* CPsyCounX is open-sourced at [HuggingFace](https://huggingface.co/CAS-SIAT-XinHai/CPsyCounX).
 
 ##### Results
 
