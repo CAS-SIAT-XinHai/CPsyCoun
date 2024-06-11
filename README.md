@@ -136,7 +136,7 @@ If you find our work helpful in your research, please cite the following paper:
 ```
 @misc{zhang2024cpsycoun,
       title={CPsyCoun: A Report-based Multi-turn Dialogue Reconstruction and Evaluation Framework for Chinese Psychological Counseling}, 
-      author={Chenhao Zhang and Renhao Li and Minghuan Tan and Min Yang and Jingwei Zhu and Di Yang and Jiahao Zhao and Guancheng Ye and Chengming Li and Xiping Hu and Derek F. Wong},
+      author={Chenhao Zhang and Renhao Li and Minghuan Tan and Min Yang and Jingwei Zhu and Di Yang and Jiahao Zhao and Guancheng Ye and Chengming Li and Xiping Hu},
       year={2024},
       eprint={2405.16433},
       archivePrefix={arXiv},
