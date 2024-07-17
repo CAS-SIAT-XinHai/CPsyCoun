@@ -10,6 +10,7 @@
 
 ## 🔥News
 
+* **[Jul. 2024]**: We collaborate with EmoLLM team to launch **EmoLLM V3.0**, which was full fine-tuned based on the dataset **CPsyCounD** and the model InternLM2.5-7B-Chat. Model weights: [OpenXLab](https://openxlab.org.cn/models/detail/chg0901/EmoLLM_V3.0), [ModelScope](https://modelscope.cn/models/chg0901/EmoLLMV3.0). WebDemo: [OpenXLab demo](https://openxlab.org.cn/apps/detail/chg0901/EmoLLMV3.0).
 * **[May. 2024]**: Our paper has released on [arXiv](https://arxiv.org/abs/2405.16433) , check it out!
 * **[May. 2024]**: **CPsyCoun** has been accepted to **2024 ACL** ***Findings***!
 * **[Apr. 2024]**: **CPsyCoun** has been used in [EmoLLM ![img](https://img.shields.io/github/stars/SmartFlowAI/EmoLLM?style=social)](https://github.com/SmartFlowAI/EmoLLM), welcome!
