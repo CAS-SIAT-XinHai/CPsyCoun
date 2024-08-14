@@ -136,12 +136,9 @@ We further fine-tune **InternLM2-7B-Chat** on **CPsyCounD**. CPsyCounX is fine-t
 If you find our work helpful in your research, please cite the following paper:
 
 ```
-@misc{zhang2024cpsycoun,
-      title={CPsyCoun: A Report-based Multi-turn Dialogue Reconstruction and Evaluation Framework for Chinese Psychological Counseling}, 
-      author={Chenhao Zhang and Renhao Li and Minghuan Tan and Min Yang and Jingwei Zhu and Di Yang and Jiahao Zhao and Guancheng Ye and Chengming Li and Xiping Hu},
-      year={2024},
-      eprint={2405.16433},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL}
-}
+@inproceedings{zhang-etal-2024-cpsycoun,
+    title="{CP}sy{C}oun: A Report-based Multi-turn Dialogue Reconstruction and Evaluation Framework for {C}hinese Psychological Counseling",
+    author="Zhang, Chenhao  and Li, Renhao  and Tan, Minghuan  and Yang, Min  and Zhu, Jingwei  and Yang, Di  and Zhao, Jiahao  and Ye, Guancheng  and Li, Chengming  and Hu, Xiping",
+    journal={ACL},
+    year={2024},
 ```
