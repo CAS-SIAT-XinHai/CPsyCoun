@@ -140,5 +140,6 @@ If you find our work helpful in your research, please cite the following paper:
     title="{CP}sy{C}oun: A Report-based Multi-turn Dialogue Reconstruction and Evaluation Framework for {C}hinese Psychological Counseling",
     author="Zhang, Chenhao  and Li, Renhao  and Tan, Minghuan  and Yang, Min  and Zhu, Jingwei  and Yang, Di  and Zhao, Jiahao  and Ye, Guancheng  and Li, Chengming  and Hu, Xiping",
     journal={ACL},
-    year={2024},
+    year={2024}
+}
 ```
