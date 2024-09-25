@@ -3,13 +3,15 @@
 **CPsyCoun: A Report-based Multi-turn Dialogue Reconstruction and Evaluation Framework for Chinese Psychological Counseling**
 
 <p align="center">
-<a href="https://huggingface.co/CAS-SIAT-XinHai/CPsyCounX"><img src="https://img.shields.io/badge/-HuggingFace-yellow" alt="HuggingFace"></a>
+<a href="https://huggingface.co/CAS-SIAT-XinHai/CPsyCounX"><img src="https://img.shields.io/badge/CPsyCounX-yellow" alt="CPsyCounX"></a>
 <a href="https://github.com/CAS-SIAT-XinHai/CPsyCoun"><img src="https://img.shields.io/badge/GitHub-24292e" alt="github"></a>
-<a href="https://huggingface.co/datasets/CAS-SIAT-XinHai/CPsyCoun"><img src="https://img.shields.io/badge/-HuggingFace-yellow" alt="HuggingFace"></a>
+<a href="https://huggingface.co/datasets/CAS-SIAT-XinHai/CPsyCoun"><img src="https://img.shields.io/badge/CPsyCounD-yellow" alt="CPsyCounD"></a>
+<a href="https://huggingface.co/datasets/CAS-SIAT-XinHai/CPsyCounR"><img src="https://img.shields.io/badge/CPsyCounR-yellow" alt="CPsyCounR"></a>
 </p> 
 
 ## 🔥News
 
+* **[Sep. 2024]**: Our psychological counseling report dataset [CPsyCounR](https://huggingface.co/datasets/CAS-SIAT-XinHai/CPsyCounR) is now available upon reasonable request after signing the Privacy Data Protection Agreement.
 * **[Jul. 2024]**: Paper presentation work:  [Report](https://mp.weixin.qq.com/s?__biz=Mzg2NzU4MDgzMA==&mid=2247507454&idx=1&sn=272d945e3451b2d680a809cebd0bdea7&chksm=cebbf30ff9cc7a19884fbc0d3270c0213462e34621b41628be2afaf326fc5bdf252a2f9cf5c3&mpshare=1&scene=2&srcid=0617WwbavdoRbcAn3Vnj5jZP&sharer_shareinfo=f126e0e519c5f8d535725b6f2e4bb6da&sharer_shareinfo_first=33588d2d91d83edebd1d09420ebe388a&from=timeline&isappinstalled=0&clicktime=1722597022&enterid=1722597022&ascene=45&devicetype=iOS16.5.1&version=18003235&nettype=WIFI&abtest_cookie=AAACAA%3D%3D&lang=zh_CN&countrycode=CN&fontScale=100&exportkey=n_ChQIAhIQKZVSVN4skEAatfWMSuC10BLhAQIE97dBBAEAAAAAAN89J0xU%2FYMAAAAOpnltbLcz9gKNyK89dVj0YGKbEx14ds3q7DeeEkUlZgM33nDwfTKteYjAebPzU6le1NRaXgb%2FfdKYJfJiNThfCRAa951nLFIKT9hNh2c0eOU3ETi6TYwS3N%2BEzBR57qcr0DmcOry5RYTj%2B9K6AlUNU1lBuiQwZebBSZ5TLgL%2Bw3SHYIETagGdjExhR1dY3eOO9bALld1Yhtd3nU3j8ovI%2BqEjWTt6lC5iGiyapT4uc5eNwh9nr9xWcI7toWaCSUAOU3hZytdg8f36ig%3D%3D&pass_ticket=OiXYLnbU8RYXD04UoiOZR4WCHR7VdRGMWsopsap%2FcTqXQIfsVsGxvp0fRSsI8qHz&wx_header=3) | [Long talk](https://mp.weixin.qq.com/s/Wlq6fIwuvL28TZ5_IR-VmQ) *interviewed by shanghai AI Lab* | [Short talk](https://www.bilibili.com/video/BV1gb421779t/?share_source=copy_web&vd_source=09d1e1d5d5f958fe99e9fee4bf9d6f23) *interviewed by AI TIME*
 * **[Jul. 2024]**: We collaborate with EmoLLM team to launch **EmoLLM V3.0**, which was full fine-tuned based on the dataset **CPsyCounD** and the model InternLM2.5-7B-Chat. Model weights: [OpenXLab](https://openxlab.org.cn/models/detail/chg0901/EmoLLM_V3.0), [ModelScope](https://modelscope.cn/models/chg0901/EmoLLMV3.0). WebDemo: [OpenXLab demo](https://openxlab.org.cn/apps/detail/chg0901/EmoLLMV3.0).
 * **[May. 2024]**: Our paper has released on [arXiv](https://arxiv.org/abs/2405.16433) , check it out!
