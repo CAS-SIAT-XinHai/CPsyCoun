@@ -95,11 +95,11 @@ The general multi-turn dialogue **evaluation dataset**, which has **nine topics*
 * For more details, please refer to the [CPsyCounE](CPsyCounE/README.md).
 
 
-### Experiments
+## Experiments
 
-#### Intrinsic Evaluation
+### Intrinsic Evaluation
 
-##### Role-play VS Memo2Demo
+#### Role-play VS Memo2Demo
 
 * Statistics of generated dialogues
 
@@ -110,15 +110,15 @@ The general multi-turn dialogue **evaluation dataset**, which has **nine topics*
 ![Intrinsic evaluation](Fig/Experiment_2.png)
 
 
-#### Extrinsic Evaluation
+### Extrinsic Evaluation
 
-##### CPsyCounX
+#### CPsyCounX
 
 We further fine-tune **InternLM2-7B-Chat** on **CPsyCounD**. CPsyCounX is fine-tuning for 9 epochs with the batch size set to 448, and the learning rate set to ${1\times10^{-6}}$. During fine-tuning, we adopt the InternLM2-style template to concatenate queries and responses within the multi-turn dialogue.
 * For more details, please refer to the [Code](Code/sft_CPsyCounX.sh).
 * CPsyCounX is open-sourced at [HuggingFace](https://huggingface.co/CAS-SIAT-XinHai/CPsyCounX).
 
-##### Results
+#### Results
 
 * The average results of extrinsic evaluation
 
